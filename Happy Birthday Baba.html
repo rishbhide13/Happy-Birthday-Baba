@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Happy BirthDay Baba! ❤️u!!!!!</title>
+	</head>
+	<body>
+		<img align = "center" src="https://i.etsystatic.com/5416979/r/il/c04ae5/4103598385/il_570xN.4103598385_kf7w.jpg">
+		<p><b><u><h1>स्वप्रिय पितरे जन्मदिनस्य अभिनन्दनं! आपत्सुखानि सहिष्णुः, परोपकारी च, तथा सदा स्मरणीयः। अद्य प्रतिदिनं सदा आनन्दपूर्णं स्यात्, तदा हितानि च धर्मं च पालयिष्यसि। प्रियं पितरं जन्मदिने आमन्त्रयामि, तव आरोग्यं च ऐश्वर्यं च सदा समृद्धं स्यात्। परमं प्रियं ते एव शुभमस्तु।</h1></u></b></p>
+		which means --->
+		<p><b><u><h1><div id="typingContainer" style="font-family:Courier New, Courier, monospace; background-color: maroon; color: white;"></div>
+<script>
+    var messages = [
+        "Dear father, happy birthday!",
+        "Enduring both joys and sorrows, always benevolent, and forever memorable.",
+        "May today and every day be filled with joy, and may you uphold righteousness and welfare.",
+        "I invite dear father on his birthday, may your health and prosperity always flourish.",
+        "May the highest blessings be upon you, my dearest."
+    ];
+
+    var currentMessageIndex = 0;
+    var currentCharacterIndex = 0;
+    var typingSpeed = 50; // milliseconds per character
+
+    function displayNextCharacter() {
+        var container = document.getElementById('typingContainer');
+        if (currentCharacterIndex <= messages[currentMessageIndex].length) {
+            container.textContent = messages[currentMessageIndex].substring(0, currentCharacterIndex);
+            currentCharacterIndex++;
+            setTimeout(displayNextCharacter, typingSpeed);
+        } else {
+            setTimeout(eraseMessage, 1500);
+        }
+    }
+
+    function eraseMessage() {
+        var container = document.getElementById('typingContainer');
+        if (currentCharacterIndex >= 0) {
+            container.textContent = messages[currentMessageIndex].substring(0, currentCharacterIndex);
+            currentCharacterIndex--;
+            setTimeout(eraseMessage, typingSpeed / 2);
+        } else {
+            currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+            setTimeout(displayNextCharacter, 500);
+        }
+    }
+
+    displayNextCharacter();
+</script>
+<br><br>❤️ u Baba! </h1></u><br>- Rishabh</b></p>
+	</body>
+</html>
